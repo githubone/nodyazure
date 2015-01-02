@@ -1,0 +1,32 @@
+﻿<header>
+  <% include ../views/header %>
+</header>
+
+<div class="container">
+
+  <main>
+    <div class="row">
+      
+      <div class="col-sm-8">
+        <div class="jumbotron">
+          <h1>This is great. </h1>
+          <p>Welcome to templating using EJS</p>
+          <p><%= data.ip %></p>
+          <p><%= response %></p>
+        </div>
+      </div>
+      
+      <div class="col-sm-4">
+        <div class="well">
+          <h3>Look I'm A Sidebar!</h3>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <% include ../views/footer %>
+  </footer>
+
+</div>
+    
